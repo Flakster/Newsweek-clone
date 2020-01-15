@@ -1,3 +1,50 @@
-* {
-  margin: 0;
+body {
+  background: #f4f5f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header rules */
+
+header {
+  position: relative;
+  height: 151px;
+}
+
+.header-container {
+  background: white;
+  max-width: 1310px;
+}
+
+.header-top {
+  height: 95px;
+  background: #f72210;
+}
+
+.header-middle {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 10px 15px;
+}
+
+.logo-svg {
+  fill: white;
+  width: 396px;
+  height: 60px;
+}
+
+.header-col1,
+.header-col2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.subscribe-btn{
+  color: #f72210;
+}
+
+.subscribe-btn > svg{
+  fill: #f72210;
+  width: 8px;
+  height: 14px;
+  margin: 0 0 4px 10px;
 }
