@@ -1,6 +1,11 @@
 body {
   background: #f4f5f6;
   font-family: Arial, Helvetica, sans-serif;
+  height: 1600px;
+}
+
+a:hover {
+  color: #f72210;
 }
 
 /* rules for the header */
@@ -12,6 +17,7 @@ header {
 .header-container {
   height: 151px;
   max-width: 1310px;
+  z-index: 1;
 }
 
 .header-top {
@@ -30,15 +36,8 @@ header {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.subscribe-btn{
+.subscribe-btn {
   color: #f72210;
-}
-
-.subscribe-btn > svg{
-  fill: #f72210;
-  width: 8px;
-  height: 14px;
-  margin: 0 0 4px 10px;
 }
 
 /* rules for the main navigation bar */
@@ -59,7 +58,7 @@ header {
   position: absolute;
   width: 100%;
   max-width: 1310px;
-  border-bottom-width: 2px solid #f4f5f6;
+  border-bottom: 2px solid #f4f5f6;
   z-index: 1;
 }
 
@@ -74,7 +73,7 @@ ul.page-nav {
 }
 
 .leaf {
-   text-align: center;
+  text-align: center;
 } 
 
 ul.page-nav :first-child {
@@ -87,11 +86,31 @@ ul.page-nav :first-child {
   font-size: 16px;
 }
 
+.small-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  background-color: #f72210;
+}
+
+.small-bar svg {
+  width: 132px;
+  height: 20px;
+}
+
+.spacer {
+  height: 50px;
+}
+
 /* rules for the main section */
 
 main {
   background: white;
   max-width: 1310px;
+  padding-top: 20px;
+  height: 700px;
 }
 
 h6 {
@@ -100,6 +119,23 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
 }
+
+.col1 {
+  height: 600px;
+}
+
+.col2 {
+  height: 550px;
+}
+
+.col3 {
+  height: 400px;
+}
+
+.col4 {
+  height: 650px;
+}
+
 .featured-stories {
 }
 
@@ -107,4 +143,21 @@ h6 {
 }
 
 .opinion {
+}
+
+.columns-container {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.avatar {
+  width: 63px;
+  height: 63px;
+}
+
+.column-title {
+  padding-left: 68px;
+}
+.column-author {
+  font-size: 14px;
 }
