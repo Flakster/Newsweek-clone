@@ -136,16 +136,43 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.extra-container {
+  max-height: 197px;
+  overflow: hidden;
+}
+
 /* rules for the Top Story section */
 
 .culture-stories {
   background: #f4f5f7;
 }
 
-/* rules for the Opinion section */
-
-.opinion {
+.culture-story-title {
+  font-size: 20px;
+  font-family: 'Lora', serif;
 }
+
+.culture-story-summary {
+  font-size: 15px;
+}
+
+/* rules for the More Stories section */
+
+.story-avatar {
+  width: 135px;
+  height: 90px;
+}
+
+.story-title {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.story-summary {
+  font-size: 15px;;
+}
+
+/* rules for the Opinion section */
 
 .columns-container {
   font-size: 16px;
@@ -164,6 +191,22 @@ h6 {
 .column-title {
   padding-left: 68px;
 }
+
 .column-author {
   font-size: 14px;
+}
+
+
+/* media querys */
+
+@media screen and (max-width: 768px) {
+  .story {
+    min-height: 190px;
+  }
+
+  .story-avatar {
+    width: 258px;
+    height: 172px;
+  }
+
 }
