@@ -136,11 +136,6 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.extra-container {
-  max-height: 197px;
-  overflow: hidden;
-}
-
 /* rules for the Top Story section */
 
 .culture-stories {
@@ -174,7 +169,8 @@ h6 {
 
 /* rules for the Opinion section */
 
-.columns-container {
+.columns-container,
+.news-headline {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -196,6 +192,16 @@ h6 {
   font-size: 14px;
 }
 
+/* rules for the Latest News section */
+
+.headline-img {
+  width: 135px;
+  height: 90px;
+}
+
+.latest-news-entry {
+  min-height: 100px;
+}
 
 /* media querys */
 
@@ -208,5 +214,4 @@ h6 {
     width: 258px;
     height: 172px;
   }
-
 }
