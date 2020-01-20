@@ -203,6 +203,46 @@ h6 {
   min-height: 100px;
 }
 
+/* rules for the Magazine section */
+
+.magazine {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.see-all {
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+}
+
+.gt-icon {
+  font-size: 30px;
+}
+
+.magazine-header-logo {
+  width: 29px;
+  height: 29px;
+}
+
+.tag-red {
+  background-color: #f72210;
+}
+
+.tag-white {
+  color: #f72210;
+}
+
+.article-title {
+  font-size: 20px;
+}
+
+.magazine-tag {
+  font-size: 16px;
+}
+
 /* media querys */
 
 @media screen and (max-width: 768px) {
