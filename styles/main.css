@@ -121,13 +121,17 @@ h6 {
 
 .featured-story-title,
 .sponsored-story-title,
-.main-story-title {
+.main-story-title,
+.grid-story-title {
   font-size: 24px;
   font-family: "Roboto Condensed", sans-serif;
+  line-height: normal;
 }
 
 .featured-story-summary,
-.sponsored-story-summary {
+.sponsored-story-summary,
+.grid-story-summary {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
@@ -245,7 +249,8 @@ h6 {
 
 /* rules for the Newsweek Conversations Section */
 
-.conversations {
+.conversations,
+.editors-pick {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -290,6 +295,9 @@ h6 {
   font-size: 18px;
 }
 
+/* rules for the Editor's pick section */
+
+
 
 /* media querys */
 
@@ -303,14 +311,8 @@ h6 {
     height: 172px;
   }
 
-  .nw-cover > img,
-  .art1 > a img,
-  .art2 > a img,
-  .art3 > a img,
-  .art4 > a img,
-  .art5 > a img,
-  .art6 > a img,
-  .art7 > a img   {
+  .grid-img {
     width: 100%;
   }
+
 }
