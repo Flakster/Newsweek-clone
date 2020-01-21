@@ -222,7 +222,7 @@ h6 {
   font-size: 30px;
 }
 
-.magazine-header-logo {
+.section-header-logo {
   width: 29px;
   height: 29px;
 }
@@ -243,6 +243,54 @@ h6 {
   font-size: 16px;
 }
 
+/* rules for the Newsweek Conversations Section */
+
+.conversations {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.black-row {
+  color: white;
+  background-color: black;
+}
+
+.main-conversation-link {
+  font-size: 28px;
+}
+
+.pw-photo {
+  min-height: 360px;
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video1 {
+  min-height: 153px;
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video2 {
+  min-height: 93px;
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video3 {
+  min-height: 113px;
+  background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video-text {
+  font-size: 18px;
+}
+
+
 /* media querys */
 
 @media screen and (max-width: 768px) {
@@ -253,5 +301,16 @@ h6 {
   .story-avatar {
     width: 258px;
     height: 172px;
+  }
+
+  .nw-cover > img,
+  .art1 > a img,
+  .art2 > a img,
+  .art3 > a img,
+  .art4 > a img,
+  .art5 > a img,
+  .art6 > a img,
+  .art7 > a img   {
+    width: 100%;
   }
 }
