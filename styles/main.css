@@ -250,7 +250,8 @@ h6 {
 /* rules for the Newsweek Conversations Section */
 
 .conversations,
-.editors-pick {
+.editors-pick,
+.featured-slideshows {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -295,9 +296,26 @@ h6 {
   font-size: 18px;
 }
 
-/* rules for the Editor's pick section */
+/* rules for the Featured Slideshows section */
 
+.grid-slideshow-title {
+  font-size: 22px;
+  line-height: normal;
+}
 
+.subsection-title {
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+
+.tiny-entry {
+  min-height: 100px;
+}
+
+.tiny-entry-title {
+  padding-left: 150px;
+}
 
 /* media querys */
 
@@ -313,6 +331,22 @@ h6 {
 
   .grid-img {
     width: 100%;
+  }
+
+  .grid-slideshow-title {
+    font-size: 18px;
+  }
+
+  .tiny-entry-img {
+    width: 258px;
+  }
+
+  .tiny-entry-title {
+    padding-left: 270px;
+  }
+
+  .tiny-entry {
+    min-height: 180px;
   }
 
 }
