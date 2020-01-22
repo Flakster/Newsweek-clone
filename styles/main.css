@@ -381,6 +381,23 @@ h6 {
 
 /* rules for the footer */
 
+.logo-home-link a > svg{
+  width: 236px;
+  fill: #f72210;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.icons > ul {
+  font-size: 25px;
+}
+
+.editions {
+  font-size: 14px;
+}
+
 /* media querys */
 
 @media screen and (max-width: 768px) {
