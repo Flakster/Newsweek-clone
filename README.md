@@ -14,7 +14,7 @@ This project is intended to try out Twitter’s Bootstrap framework by building 
 
   * HTML5
   * CSS3
-  * bootstrap
+  * Bootstrap 4
   * Font Awesome
   * Google Fonts
 
