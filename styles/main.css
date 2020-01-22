@@ -313,6 +313,7 @@ h6 {
 
 .tiny-entry-title {
   padding-left: 150px;
+  line-height: normal;
 }
 
 /* rules for the Subscribe section */
@@ -372,7 +373,7 @@ h6 {
   height: 301px;
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
   background-size: cover;
-  background-position-x: center;
+  background-position: center;
 }
 
 /* rules for the footer */
@@ -390,7 +391,8 @@ h6 {
   font-size: 25px;
 }
 
-.editions {
+.editions,
+.bottom-bar {
   font-size: 14px;
 }
 
@@ -424,5 +426,15 @@ h6 {
 
   .tiny-entry {
     min-height: 180px;
+  }
+
+  .newsletter-img {
+    height: 160px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .newsletter-img {
+    height: 190px;
   }
 }
