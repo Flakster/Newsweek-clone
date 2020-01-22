@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps:
     Explore and change values to see what happens!🤓
 
 
-## 🏠 [Homepage](https://github.com/Flakster/Apple-Newsweek-clone)
+## 🏠 [Homepage](https://github.com/Flakster/Newsweek-clone)
 
 ## ⭐️ See a live demo [here](https://rawcdn.githack.com/Flakster/Newsweek-clone/18d974343555c0aa02124a8e632663679c508276/index.html)
 
