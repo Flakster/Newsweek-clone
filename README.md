@@ -12,11 +12,11 @@ This project is intended to try out Twitter’s Bootstrap framework by building 
 
 ## 🛠 Built with
 
-*HTML5
-*CSS3
-*bootstrap
-*Font Awesome
-*Google Fonts
+  *HTML5
+  *CSS3
+  *bootstrap
+  *Font Awesome
+  *Google Fonts
 
 ## 🚀 Getting Started:
 
