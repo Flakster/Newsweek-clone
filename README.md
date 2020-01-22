@@ -12,11 +12,11 @@ This project is intended to try out Twitter’s Bootstrap framework by building 
 
 ## 🛠 Built with
 
-  *HTML5
-  *CSS3
-  *bootstrap
-  *Font Awesome
-  *Google Fonts
+  * HTML5
+  * CSS3
+  * bootstrap
+  * Font Awesome
+  * Google Fonts
 
 ## 🚀 Getting Started:
 
@@ -33,9 +33,9 @@ To get a local copy up and running follow these simple example steps:
 
 ## 🧐 Validators:
 
-    W3C validator for HTML
-    Stickler for "Style Matters" stickler
-    Stylelint for VSCode
+  *  W3C validator for HTML
+  *  Stickler for "Style Matters" stickler
+  *  Stylelint for VSCode
 
 ## Author
 
