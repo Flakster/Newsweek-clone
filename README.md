@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## 🏠 [Homepage](https://github.com/Flakster/Newsweek-clone)
 
-## ⭐️ See a live demo [here](https://rawcdn.githack.com/Flakster/Newsweek-clone/8f88491755953eac4c8e9a98e52aef975bd1b2d6/index.html)
+## ⭐️ See a live demo [here](https://flakster.github.io/Newsweek-clone/)
 
 ## 🧐 Validators:
 
