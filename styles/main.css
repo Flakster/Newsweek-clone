@@ -1,0 +1,440 @@
+body {
+  background: #f4f5f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: #f72210;
+}
+
+/* rules for the header */
+
+header {
+  position: relative;
+}
+
+.header-container {
+  height: 151px;
+  max-width: 1310px;
+  z-index: 1;
+}
+
+.header-top {
+  height: 95px;
+  background: #f72210;
+}
+
+.logo-svg {
+  fill: white;
+  width: 396px;
+  height: 60px;
+}
+
+.header-col1,
+.header-col2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.subscribe-btn {
+  color: #f72210;
+}
+
+/* rules for the main navigation bar */
+
+.header-bottom::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: "block";
+  width: 70px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.header-bottom {
+  position: absolute;
+  width: 100%;
+  max-width: 1310px;
+  border-bottom: 2px solid #f4f5f6;
+  z-index: 1;
+}
+
+ul.page-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.leaf {
+  text-align: center;
+}
+
+ul.page-nav :first-child {
+  border-left: none;
+}
+
+.search-input {
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.small-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  background-color: #f72210;
+}
+
+.small-bar svg {
+  width: 132px;
+  height: 20px;
+}
+
+.spacer {
+  height: 50px;
+}
+
+/* rules for the main section */
+
+main {
+  background: white;
+  max-width: 1310px;
+  padding-top: 20px;
+}
+
+h6 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* rules for the Featured Stories section */
+
+.featured-story-title,
+.sponsored-story-title,
+.main-story-title,
+.grid-story-title,
+.subscribe-caption,
+.newsletter-caption {
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: normal;
+}
+
+.featured-story-summary,
+.sponsored-story-summary,
+.grid-story-summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.featured-related-article,
+.story-title {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* rules for the Top Story section */
+
+.culture-stories {
+  background: #f4f5f7;
+}
+
+.culture-story-title {
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+
+.culture-story-summary {
+  font-size: 15px;
+}
+
+/* rules for the More Stories section */
+
+.story-avatar {
+  width: 135px;
+  height: 90px;
+}
+
+.story-summary {
+  font-size: 15px;
+}
+
+/* rules for the Opinion section */
+
+.columns-container,
+.news-headline {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.column {
+  min-height: 75px;
+}
+
+.avatar {
+  width: 63px;
+  height: 63px;
+}
+
+.column-title {
+  padding-left: 68px;
+}
+
+.column-author {
+  font-size: 14px;
+}
+
+/* rules for the Latest News section */
+
+.headline-img {
+  width: 135px;
+  height: 90px;
+}
+
+.latest-news-entry {
+  min-height: 100px;
+}
+
+/* rules for the Magazine section */
+
+.magazine {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.see-all {
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+}
+
+.gt-icon {
+  font-size: 30px;
+}
+
+.section-header-logo {
+  width: 29px;
+  height: 29px;
+}
+
+.tag-red {
+  background-color: #f72210;
+}
+
+.tag-white {
+  color: #f72210;
+}
+
+.article-title {
+  font-size: 20px;
+}
+
+.magazine-tag {
+  font-size: 16px;
+}
+
+/* rules for the Newsweek Conversations Section */
+
+.conversations,
+.editors-pick,
+.featured-slideshows {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.black-row {
+  color: white;
+  background-color: black;
+}
+
+.main-conversation-link {
+  font-size: 28px;
+}
+
+.pw-photo {
+  min-height: 360px;
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video1 {
+  min-height: 153px;
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video2 {
+  min-height: 93px;
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video3 {
+  min-height: 113px;
+  background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.video-text {
+  font-size: 18px;
+}
+
+/* rules for the Featured Slideshows section */
+
+.grid-slideshow-title {
+  font-size: 22px;
+  line-height: normal;
+}
+
+.subsection-title {
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+
+.tiny-entry {
+  min-height: 100px;
+}
+
+.tiny-entry-title {
+  padding-left: 150px;
+  line-height: normal;
+}
+
+/* rules for the Subscribe section */
+
+.previous-cover {
+  top: 25px;
+  left: 25px;
+}
+
+.current-cover {
+  top: 50px;
+  left: 100px;
+}
+
+.covers-container {
+  border: solid;
+  margin: 0 auto;
+}
+
+.subscribe-btn,
+.signup-btn {
+  background-color: #f72210;
+}
+
+.subscribe-info {
+  padding-top: 60px;
+}
+
+.newsletter-info {
+  padding-top: 40px;
+}
+
+.subscribe-title,
+.newsletter-title {
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.susbcribe-area {
+  min-height: 301px;
+  background-color: rgb(236, 236, 236);
+}
+
+.subscribe-summary,
+.newsletter-summary {
+  font-size: 15px;
+  line-height: normal;
+}
+
+.covers {
+  min-height: 300px;
+}
+
+.newsletter-img {
+  width: 190px;
+  height: 301px;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  background-position: center;
+}
+
+/* rules for the footer */
+
+.logo-home-link a > svg {
+  width: 236px;
+  fill: #f72210;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.icons > ul {
+  font-size: 25px;
+}
+
+.editions,
+.bottom-bar {
+  font-size: 14px;
+}
+
+/* media querys */
+
+@media screen and (max-width: 768px) {
+  .story {
+    min-height: 190px;
+  }
+
+  .story-avatar {
+    width: 258px;
+    height: 172px;
+  }
+
+  .grid-img {
+    width: 100%;
+  }
+
+  .grid-slideshow-title {
+    font-size: 18px;
+  }
+
+  .tiny-entry-img {
+    width: 258px;
+  }
+
+  .tiny-entry-title {
+    padding-left: 270px;
+  }
+
+  .tiny-entry {
+    min-height: 180px;
+  }
+
+  .newsletter-img {
+    height: 160px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .newsletter-img {
+    height: 190px;
+  }
+}
